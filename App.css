@@ -1,0 +1,71 @@
+body {
+  background: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+  border-bottom: 1px solid rgb(15, 50, 90);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  height: 650px;
+  margin: 10%;
+  background: #fff;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+}
+
+.left-half {
+  padding: 30px 80px 30px 60px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.input-label {
+  color: #b3b3b3;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.error {
+  font-size: 10px;
+  color: rgb(255, 71, 71);
+}
+
+.submit {
+  margin-top: 50px;
+  background: #35477d;
+  color: #fff;
+	border: none;
+	padding: 15px;
+	cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+	outline: inherit;
+}
